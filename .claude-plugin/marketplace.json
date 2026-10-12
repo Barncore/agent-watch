@@ -1,0 +1,16 @@
+{
+  "name": "agent-watch",
+  "owner": {
+    "name": "Barncore"
+  },
+  "metadata": {
+    "description": "agent-watch, a Claude Code mod that shows what your subagents are up to."
+  },
+  "plugins": [
+    {
+      "name": "agent-watch",
+      "source": "./",
+      "description": "A progress bar above the prompt and a live agents panel for any subagents Claude starts."
+    }
+  ]
+}

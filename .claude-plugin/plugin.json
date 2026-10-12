@@ -1,0 +1,25 @@
+{
+  "name": "agent-watch",
+  "version": "1.0.0",
+  "description": "A progress bar above the prompt and a live agents panel for any subagents Claude starts, with model, context, cost and time. Fork of johnnyvizz's savvy-progress (MIT).",
+  "author": {
+    "name": "Barncore"
+  },
+  "homepage": "https://github.com/Barncore/agent-watch",
+  "repository": "https://github.com/Barncore/agent-watch",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Panel language",
+      "description": "auto follows Claude Code's language setting, then the system locale",
+      "default": "auto",
+      "options": [
+        "auto",
+        "en",
+        "ru"
+      ]
+    }
+  }
+}
