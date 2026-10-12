@@ -647,7 +647,7 @@ async function autoOpen($: EngineInterface, key: string): Promise<void> {
 // drawing on screen and can drop a click, so a subagent's per-request usage waits here and is
 // written once per FLUSH_MS; the same tick moves the running clocks in the panel.
 
-export const FLUSH_MS = 30_000
+export const FLUSH_MS = 5_000
 
 type Pending = { model: string; effort?: string; contextTokens: number; tokens: number; costUsd: number; steps: number }
 type Ticker = { pending: Map<string, Pending>; isTicking: boolean }

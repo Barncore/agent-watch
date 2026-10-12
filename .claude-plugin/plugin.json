@@ -1,6 +1,6 @@
 {
   "name": "agent-watch",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "A progress bar above the prompt and a live agents panel for any subagents Claude starts, with model, context, cost and time. Fork of johnnyvizz's savvy-progress (MIT).",
   "author": {
     "name": "Barncore"
