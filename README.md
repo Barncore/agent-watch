@@ -4,6 +4,8 @@ A Claude Code mod that shows what your subagents are up to: a progress bar above
 
 ![The Subagents bar above the prompt box: "0/4", a progress track, "0%" and a ×4 crew button](docs/images/bar.png)
 
+![The same bar when the run finishes: a full green track, a green "Done" badge, "100%" and a ×1 crew button](docs/images/bar-done.png)
+
 ![The Agents panel: total cost, tokens and time, then four running subagents, each with its model, effort, context, tokens, cost and time](docs/images/panel.png)
 
 It's a fork of johnnyvizz's [savvy-progress](https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress). savvy-progress only shows its bar for the savvy-flow workflow. agent-watch shows it for any subagent Claude starts, so you get it with Claude's own subagent work.
