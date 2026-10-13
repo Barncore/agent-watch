@@ -2,6 +2,10 @@
 
 A Claude Code mod that shows what your subagents are up to: a progress bar above the prompt box, and a live panel listing every subagent with its model, context, tokens, cost and time.
 
+![The Subagents bar above the prompt box: "0/4", a progress track, "0%" and a ×4 crew button](docs/images/bar.png)
+
+![The Agents panel: total cost, tokens and time, then four running subagents, each with its model, effort, context, tokens, cost and time](docs/images/panel.png)
+
 It's a fork of johnnyvizz's [savvy-progress](https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress). savvy-progress only shows its bar for the savvy-flow workflow. agent-watch shows it for any subagent Claude starts, so you get it with Claude's own subagent work.
 
 ## What it does
@@ -52,7 +56,7 @@ Then restart again. A running session keeps the copy it started with.
 
 ## Tested on
 
-- **Windows 11, the Claude desktop app's Code tab, Claude Code 2.1.295.** The bar has been seen drawing there. The rest is covered by the tests: the bar's counts, the panel opening once, the shared band, and the batched updates.
+- **Windows 11, the Claude desktop app's Code tab, Claude Code 2.1.295.** The bar and the panel have been seen drawing there, with four subagents running (the screenshots above). The rest is covered by the tests: the bar's counts as subagents finish, the panel opening once, the shared band, and the batched updates.
 - **macOS: untested.** It should work. Mods are JavaScript run by Claude Code itself, and agent-watch touches no files, processes or OS features. But the desktop app draws mods itself, and a few drawing bugs have only been reported on Mac. If you try it on a Mac, an issue saying how it went would help.
 - **Terminal:** savvy-progress's text version of the bar and panel is still there, unchanged, but nobody has watched agent-watch in a real terminal yet.
 
