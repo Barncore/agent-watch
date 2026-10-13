@@ -2,9 +2,15 @@
 
 A Claude Code mod that shows what your subagents are up to: a progress bar above the prompt box, and a live panel listing every subagent with its model, context, tokens, cost and time.
 
+The bar while four subagents run:
+
 ![The Subagents bar above the prompt box: "0/4", a progress track, "0%" and a ×4 crew button](docs/images/bar.png)
 
+The same bar once they've all finished:
+
 ![The same bar when the run finishes: a full green track, a green "Done" badge, "100%" and a ×1 crew button](docs/images/bar-done.png)
+
+The panel, which the crew button opens, with every subagent's model, effort, context, tokens, cost and time:
 
 ![The Agents panel: total cost, tokens and time, then four running subagents, each with its model, effort, context, tokens, cost and time](docs/images/panel.png)
 
